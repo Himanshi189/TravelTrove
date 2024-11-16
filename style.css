@@ -1,0 +1,126 @@
+
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Eudoxus Sans", sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+ 
+  body {
+    background: linear-gradient(
+      97.86deg,
+      hsl(210deg 70% 20%) 0%,         /* Dark blue */
+      hsl(215deg 70% 30%) 50%,         /* Deep blue */
+      hsl(220deg 65% 50%) 100%         /* Mid blue */
+    );
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  
+  .gradient-02 {
+    position: absolute;
+    width: 200px;
+    height: 438px;
+    top: 0px;
+    right: 0px;
+    background: #7aebfb;
+    filter: blur(190px);
+  }
+  
+  .gradient-03 {
+    position: absolute;
+    width: 404px;
+    height: 800px;
+    left: 20%;
+    top: 5%;
+    background: rgba(149, 66, 232, 0.35);
+    filter: blur(175px);
+    transform: rotate(-114.2deg);
+  }
+  
+  .gradient-04 {
+    position: absolute;
+    width: 304px;
+    height: 100vh;
+    left: 30%;
+    top: 10%;
+    background: rgba(45, 72, 152, 0.75);
+    filter: blur(200px);
+    transform: rotate(-53.13deg);
+  }
+  
+
+  .form-container {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 600px; 
+  }
+  
+  
+  form {
+    background: rgba(255, 255, 255, 0.25);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.2);
+    backdrop-filter: blur(10px);
+    width: 100%;
+  }
+  
+  
+  label {
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+ 
+  input[type="text"], input[type="date"] {
+    font-weight: normal;
+    font-style: italic;  
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  
+  h1 {
+    color: white; 
+  }
+  
+  
+  .mb-4 {
+    margin-bottom: 20px;
+  }
+  
+  
+  .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
